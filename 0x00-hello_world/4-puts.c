@@ -1,8 +1,9 @@
 #include <stdio.h>
-/**
- * main - entry point
- * return: always 0 (0)
- */
-int main(void)
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+#include <stdlib.h>
+int main(int argc, char * argv[] ){
+	/** notice that the first line is implicit*/
+	puts( "Programming is like building a multilingual puzzle");
+	return(0);
+}
+
+
